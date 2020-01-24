@@ -5,5 +5,5 @@ sbt compile stage
 heroku local web
 
 ./target/universal/stage/bin/play-getting-started
-
+sbt compile stage deployHeroku
 
