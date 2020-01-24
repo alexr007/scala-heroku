@@ -2,3 +2,6 @@ manual: heroku + scala + play
 https://devcenter.heroku.com/articles/getting-started-with-scala?singlepage=true
 sbt compile stage
 ./target/universal/stage/bin/play-getting-started
+
+heroku local web - working
+
