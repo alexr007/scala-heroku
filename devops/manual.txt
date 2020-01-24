@@ -1,9 +1,26 @@
-manual: heroku + scala + play
+[manual]: heroku + scala + play
 https://devcenter.heroku.com/articles/getting-started-with-scala?singlepage=true
 
+[.env]
+https://devcenter.heroku.com/articles/config-vars
+
+[Procfile]
+https://devcenter.heroku.com/articles/procfile
+
+[app.json]
+https://devcenter.heroku.com/articles/app-json-schema#example-app-json
+
+[system.properties]
+https://devcenter.heroku.com/articles/customizing-the-jdk
+
+[plugin]
+https://github.com/heroku/sbt-heroku
+
+[build local]
 sbt compile stage
+
+[check local]
 heroku local web
 
-./target/universal/stage/bin/play-getting-started
+[build local and push]
 sbt compile stage deployHeroku
-
