@@ -1,0 +1,6 @@
+manual: heroku + scala + play
+https://devcenter.heroku.com/articles/getting-started-with-scala?singlepage=true
+
+1. run from IDEA
+2. run from Console
+3. run on the Heroku
