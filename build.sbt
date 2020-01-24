@@ -6,7 +6,6 @@ lazy val root = (project in file("."))
   .enablePlugins(PlayScala)
   .enablePlugins(JavaAppPackaging)
 
-
 libraryDependencies ++= Seq(
   guice,
 )
