@@ -10,7 +10,7 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
     import Console._
     val hh: Seq[(String, String)] = request.headers.headers
     hh.map(h => s"${BLUE}${h._1}$RESET:$RED${h._2}$RESET").foreach(println)
-    Ok("Minimal Play App is working!")
+    Ok("Minimal Scala-Play App is working!")
   }
 
 }

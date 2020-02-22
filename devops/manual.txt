@@ -22,5 +22,8 @@ sbt compile stage
 [check local]
 heroku local web
 
+[deploy built]
+sbt deployHeroku
+
 [build local and push]
 sbt compile stage deployHeroku
