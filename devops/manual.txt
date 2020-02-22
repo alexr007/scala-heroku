@@ -27,3 +27,6 @@ sbt deployHeroku
 
 [build local and push]
 sbt compile stage deployHeroku
+
+[location]
+https://immense-thicket-94453.herokuapp.com
