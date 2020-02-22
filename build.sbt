@@ -1,4 +1,4 @@
-name := "play-getting-started"
+name := "scala-play-heroku-my"
 version := "1.0-SNAPSHOT"
 scalaVersion := "2.13.1"
 
